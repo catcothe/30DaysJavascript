@@ -1,0 +1,50 @@
+html{
+    font-size: 10px;
+    text-align: center;
+}
+
+body{
+    font-size: 2rem;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    background-color: black;
+}
+
+.clock{
+    width: 30rem;
+    height: 30rem;
+    border: 20px solid white;
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+}
+
+
+.hand{
+    position: absolute;
+    height: 4px;
+    background: rgb(151, 45, 45);
+    top: 50%;
+    transform: rotate(90deg);
+    transition-timing-function: ease-in-out ;
+    transition: all;
+}
+
+.hour-hand{
+    width: 30%;
+    left: 20%;
+    transform-origin: 100%;
+}
+
+.min-hand{
+    width: 45%;
+    left: 5%;
+    transform-origin: 100%;
+}
+
+.second-hand{
+    width: 50%;
+    transform-origin: 100%;
+}

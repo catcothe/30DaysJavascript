@@ -1,0 +1,29 @@
+.boxes{
+    margin: auto;
+    height: 60rem;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 3rem;
+}
+
+.box{
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(205, 144, 216);
+    color: aliceblue;
+    transition: all 1s;
+}
+
+.playing{
+    transform: scale(2);
+    box-shadow: 0 2px 2px rgb(161, 34, 125);
+}
+
+h4{
+    margin: 0;
+}

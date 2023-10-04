@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="boxes">
+      <div class="box" data-key="65">
+        A
+      </div>
+
+      <div class="box" data-key="66">
+        B
+      </div>
+
+      <div class="box" data-key="67">
+        C
+      </div>
+
+      <div class="box" data-key="68">
+        D
+      </div>
+
+      <div class="box" data-key="69">
+        E
+      </div>
+    </div>
+
+    <audio
+      data-key="65"
+      src="audio/amen-break-no-copyright-remake-120bpm-25924.mp3"
+    ></audio>
+    <audio data-key="66" src="audio/bang-140381.mp3"></audio>
+    <audio data-key="67" src="audio/epic-logo-6906.mp3"></audio>
+    <audio
+      data-key="68"
+      src="audio/typical-trap-loop-140bpm-129880.mp3"
+    ></audio>
+    <audio data-key="69" src="audio/typical-trap-loop-2b-130751.mp3"></audio>
+
+    <script src="app.js"></script>
+  </body>
+</html>
